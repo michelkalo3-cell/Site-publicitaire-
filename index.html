@@ -1,87 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CHARAMOU™ | Official Website</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHARAMOU™ | Official Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-  <!-- ÉCRAN D’INTRO -->
-  <div id="intro">
-    <img src="LOGO/gt.jpg" alt="Logo C&A DESIGN" class="intro-logo">
-    <h2>C&A™ DESIGN</h2>
-  </div>
+  <body>
+    <!-- ÉCRAN D’INTRO -->
+    <div id="intro">
+      <img src="LOGO/gt.jpg" alt="Logo C&A DESIGN" class="intro-logo" />
+      <h2>C&A™ DESIGN</h2>
+    </div>
 
-  <!-- SON D’ACCUEIL -->
-  <audio id="sound" src="images/intro.mp3" preload="auto"></audio>
+    <!-- SON D’ACCUEIL -->
+    <audio id="sound" src="images/intro.mp3" preload="auto"></audio>
 
-  <header>
-    <h1>CHARAMOU & ALLANE DESIGN</h1>
-    <img src="LOGO/gt.jpg" alt="Logo" class="logo">
-  
+    <header>
+      <div class="header-inner">
+        <h1>CHARAMOU & ALLANE DESIGN</h1>
+        <img src="LOGO/gt.jpg" alt="Logo" class="logo" />
 
-    <nav>
-      <a href="index.html">Accueil</a>
-      <a href="#services">Services</a>
-      <a href="#projets">Projets</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    </header>
-    <main>
-      <H2>
-    QUELQUES ECHANTILLONS NOS SERVICES
-</H2>
-  <main>
-    <section id="home" class="visible">
-  <div class="hero" id="home">
-    <img src="IMG/ah2.jpg" alt="Affiche principale">
-    <img src="IMG/fe.jpg" alt="Affiche secondaire">
-    <img src="IMG/ah6.jpg" alt="3">
-    <img src="IMG/de.jpg" alt="4">
-    <img src="IMG/tr.jpg" alt="">
-    <img src="IMG/bE.jpg" alt="">
-  </div>
-    </section>
-
-    <section id="services">
-      <h2>Nos Services Créatifs</h2>
-      <div class="card"><a href="">🎨 Création d’affiches publicitaires</a></div>
-      <div class="card"><a href="logo.html">🖋️ Logos uniques</a></div>
-      <div class="card"><a href="">💼 Cartes de visite élégantes</a></div>
-    </section>
-
-    <section id="projets">
-      <h2>Nos Projets</h2>
-      <div class="card">💡 Satisfaction client</div>
-      <div class="card">🌐 Développement de sites modernes</div>
-    </section>
-
-    <section id="contact">
-      <h2>Contactez-nous</h2>
-      <p>📧 Email : <b>
-                        michelkalo3@gmail.com</b> | ☎️ <b>05 08 29 48 99 / 05 02 30 15 18</b></p>
-          <form>
-      <input type="text" placeholder="Votre nom" required>
-      <input type="email" placeholder="Votre email" required>
-      <textarea placeholder="Votre message" required></textarea>
-      <button type="submit">Envoyer</button>
-      <br>
-      <br>
-    </form>
-    <button onclick="toggleMode()">🌗 Mode Nuit/Jour</button>
-  </section>
-      <div class="sound-control">
-        <button onclick="toggleSound()">🔈 On/Off</button>
+        <nav aria-label="Navigation principale">
+          <a href="#home">Accueil</a>
+          <a href="#services">Services</a>
+          <a href="#projets">Projets</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </div>
-    </section>
-  </main>
+    </header>
 
-  <footer>
-    &copy; 2026 CHARAMOU Universe | Créé par Michel ✨
-  </footer>
 
-  <script src="script.js"></script>
-</body>
+
+
+
+
+
+
+
+
+    <main>
+
+
+
+
+      <section id="home" class="visible" aria-label="Accueil">
+        <div class="hero" role="list" aria-label="Échantillons">
+          <img src="IMG/ah2.jpg" alt="Affiche principale" role="listitem" />
+          <img src="IMG/fe.jpg" alt="Affiche secondaire" role="listitem" />
+          <img src="IMG/ah6.jpg" alt="Affiche 3" role="listitem" />
+          <img src="IMG/de.jpg" alt="Affiche 4" role="listitem" />
+          <img src="IMG/tr.jpg" alt="Affiche" role="listitem" />
+          <img src="IMG/bE.jpg" alt="Affiche" role="listitem" />
+           <img src="IMG/XX.png" alt="Affiche" role="listitem" />
+        </div>
+      </section>
+
+      <section id="services">
+        <h2>Nos Services Créatifs</h2>
+        <div class="card">
+          <a href="">🎨 Création d’affiches publicitaires</a>
+        </div>
+        <div class="card"><a href="logo.html">🖋️ Logos uniques</a></div>
+        <div class="card"><a href="">💼 Cartes de visite élégantes</a></div>
+      </section>
+
+      <section id="projets">
+        <h2>Nos Projets</h2>
+        <div class="card">💡 Satisfaction client</div>
+        <div class="card">🌐 Développement de sites modernes</div>
+      </section>
+
+      <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>
+          📧 Email : <b>michelkalo3@gmail.com</b> | ☎️
+          <b>05 08 29 48 99 / 05 02 30 15 18</b>
+        </p>
+
+        <form>
+          <input type="text" placeholder="Votre nom" required />
+          <input type="email" placeholder="Votre email" required />
+          <textarea placeholder="Votre message" required></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+
+        <div class="controls">
+          <button onclick="toggleMode()" type="button" class="control-btn">
+            🌗 Mode Nuit/Jour
+          </button>
+          <button onclick="toggleSound()" type="button" class="control-btn">
+            🔈 On/Off
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer>&copy; 2026 CHARAMOU Universe | Créé par Michel ✨</footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
